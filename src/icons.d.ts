@@ -35,7 +35,7 @@ export const DoubleDownIcon: Icon;
 export const AngleDownIcon: Icon;
 export const ExternalIcon: Icon;
 export const BranchesMasterIcon: Icon;
-export const StarIcon: Icon;
+export const StarStrokeIcon: Icon;
 export const StarIcon: Icon;
 export const WaitingIcon: Icon;
 export const FlagIcon: Icon;
