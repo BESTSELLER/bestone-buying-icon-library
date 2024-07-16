@@ -14,8 +14,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Set yarn to stable version
-        run: yarn set version stable
+      - name: Enable corepack
+        run: corepack enable
       - name: Run yarn install
         run: yarn install
       - name: Fetch icons
