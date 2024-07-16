@@ -14,12 +14,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Enable corepack
-        run: corepack enable
       - name: Run yarn install
-        run: |
-          export YARN_ENABLE_HARDENED_MODE=false
-          yarn install
+        run: yarn install
       - name: Fetch icons
         run: yarn fetch
         env:
