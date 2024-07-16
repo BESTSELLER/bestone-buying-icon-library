@@ -17,7 +17,10 @@ jobs:
       - name: Run yarn install
         run: yarn install
       - name: Fetch icons
-        run: yarn fetch
+        run: |
+          echo ${{ secrets.FIGMA_FILE_URL }}
+          echo ${{ secrets.FIGMA_TOKEN }}
+          yarn fetch
         env:
           FIGMA_FILE_URL: ${{ secrets.FIGMA_FILE_URL }}
           FIGMA_TOKEN: ${{ secrets.FIGMA_TOKEN }}
