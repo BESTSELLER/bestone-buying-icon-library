@@ -1,13 +1,13 @@
 /// <reference types="react" />
-import { ComponentType, SVGAttributes } from "react";
+  import { ComponentType, SVGAttributes } from 'react';
 
-interface Props extends SVGAttributes<SVGElement> {
-  color?: string;
-  size?: string | number;
-}
+  interface Props extends SVGAttributes<SVGElement> {
+    color?: string;
+    size?: string | number;
+  }
 
-type Icon = ComponentType<Props>;
-export const BoxIcon: Icon;
+  type Icon = ComponentType<Props>;
+  export const BoxIcon: Icon;
 export const SizeIcon: Icon;
 export const LifebuoyIcon: Icon;
 export const PlusIcon: Icon;
@@ -39,7 +39,7 @@ export const AngleDownIcon: Icon;
 export const ExternalIcon: Icon;
 export const BranchesMasterIcon: Icon;
 export const StarIcon: Icon;
-export const StarIconFilled: Icon;
+export const FullStarIcon: Icon;
 export const WaitingIcon: Icon;
 export const FlagIcon: Icon;
 export const CampaignIcon: Icon;

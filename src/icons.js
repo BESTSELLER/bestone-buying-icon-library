@@ -30,7 +30,7 @@ export { default as AngleDownIcon } from './icons/Icons-angle-down-fill';
 export { default as ExternalIcon } from './icons/Icons-external-fill';
 export { default as BranchesMasterIcon } from './icons/Icons-branches-master-fill';
 export { default as StarIcon } from './icons/Icons-star-fill';
-export { default as StarIconFilled } from './icons/Icons-star-filled';
+export { default as FullStarIcon } from './icons/Icons-full-star-fill';
 export { default as WaitingIcon } from './icons/Icons-waiting-fill';
 export { default as FlagIcon } from './icons/Icons-flag-fill';
 export { default as CampaignIcon } from './icons/Icons-campaign-fill';
